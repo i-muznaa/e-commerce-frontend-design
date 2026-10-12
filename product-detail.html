@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - ShopHub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="logo">
+            <h2>ShopHub</h2>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="#">Categories</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="header-search">
+            <input type="text" id="searchInput" placeholder="Search products...">
+        </div>
+        <div class="header-icons">
+            <a href="#" class="cart-icon">🛒 Cart</a>
+        </div>
+    </header>
+
+    <!-- Product Details Container (Week 3 Goal) -->
+    <main class="detail-container">
+        <div class="product-detail-grid">
+            <!-- Product Image Gallery Section -->
+            <!-- Product Image Gallery Section -->
+            <div class="product-gallery">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="Premium Classic Watch" class="detail-main-img">
+            </div>
+
+            <!-- Product Information Section -->
+            <div class="product-info">
+                <h1>Premium Classic Watch</h1>
+                <p class="detail-price">$120.00</p>
+                <p class="description">
+                    Crafted with precision and designed for elegance, this premium classic watch is suitable for both formal occasions and everyday wear. Features genuine leather straps and water resistance.
+                </p>
+
+                <!-- Size Dropdown Interactivity -->
+                <div class="options-group">
+                    <label for="sizeSelect">Select Size:</label>
+                    <select id="sizeSelect">
+                        <option value="small">Small (38mm)</option>
+                        <option value="medium" selected>Medium (42mm)</option>
+                        <option value="large">Large (46mm)</option>
+                    </select>
+                </div>
+
+                <!-- Add to Cart Button -->
+                <button class="add-to-cart-btn" id="addToCartBtn">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Customer Reviews / Related Products Section -->
+        <section class="related-section">
+            <h3>Customer Reviews & Related Products</h3>
+            <div class="reviews-box">
+                <p>⭐ <strong>Sarah M.</strong> - "Absolutely love the build quality! Shipped fast too."</p>
+                <p>⭐ <strong>David K.</strong> - "Clean design and looks great on the wrist."</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>Your premier desktop shopping destination for quality and style.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Support</h3>
+                <p>Email: support@shophub.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ShopHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link JavaScript File -->
+    <script src="js/script.js"></script>
+</body>
+</html>
